@@ -629,6 +629,19 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.iconContainer {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.lawIcon {
+
+			max-width: 3rem;
+			margin-top: 20%;
+			
+		}
+
 /* Image */
 
 	.image {
