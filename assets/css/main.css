@@ -778,6 +778,18 @@ input, select, textarea {
 			margin-left: 2rem;
 		}
 
+		.infoContact {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			list-style: none;
+			padding-top: 3%;
+			margin-bottom: none;
+			padding-bottom: none;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
 /* Actions */
 
 	ul.actions {
@@ -789,6 +801,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		flex-direction: column;
 	}
 
 		ul.actions li {
@@ -870,7 +883,7 @@ input, select, textarea {
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
 					padding: 1rem 0 0 0;
-					text-align: center;
+					/* text-align: center; */
 					width: 100%;
 				}
 
@@ -1368,11 +1381,15 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: auto;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+				}
+
+				.aboutList {
+					list-style: none;
 				}
 
 					#header nav ul li a:hover {
