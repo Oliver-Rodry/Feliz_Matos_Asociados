@@ -198,6 +198,11 @@ input, select, textarea {
 		letter-spacing: 0.5rem;
 	}
 
+	article > h1 {
+		font-size: 0.5rem;
+		letter-spacing: 0.1rem;
+	}
+
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
